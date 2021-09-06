@@ -30,6 +30,7 @@ public class LinkedListCycleII {
         //let walker return back to the start point
         walker = head;
         //they two move one step each time, when they meet again, the meeting point is the start of the circle
+        //相遇判断不能放到后面，否则双节点环会无限循环追击
         while(walker != runner) {
             walker = walker.next;
             runner = runner.next;
