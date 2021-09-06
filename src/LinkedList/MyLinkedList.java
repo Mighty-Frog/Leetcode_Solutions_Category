@@ -1,4 +1,4 @@
-package LiinkedList;
+package LinkedList;
 
 class MyLinkedList {
     int size;
